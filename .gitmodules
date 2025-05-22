@@ -1,0 +1,3 @@
+[submodule "image_experiments/edm2"]
+	path = image_experiments/edm2
+	url = https://github.com/NVlabs/edm2.git
