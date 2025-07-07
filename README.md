@@ -1,5 +1,23 @@
 # Spacetime Geometry of Denoising in Diffusion Models
 
+
+This repository contains the implementation of [Spacetime Geometry of Denoising in Diffusion Models](https://arxiv.org/abs/2505.17517). If you find our work useful in your research, please consider citing (expand for BibTeX):
+
+<details>
+<summary>
+R. Karczewski, M. Heinonen, A. Pouplin, S. Hauberg, V. Garg. Spacetime Geometry of Denoising in Diffusion Models
+</summary>
+
+```bibtex
+@article{karczewski2025spacetime,
+  title={Spacetime Geometry of Denoising in Diffusion Models},
+  author={Karczewski, Rafa{\l} and Heinonen, Markus and Pouplin, Alison and Hauberg, S{\o}ren and Garg, Vikas},
+  journal={arXiv preprint arXiv:2505.17517},
+  year={2025}
+}
+```
+</details>
+
 ### TL;DR
 
 We redefine the latent space of diffusion models as a spacetime continuum $(\mathbf{x}_t,t)$. Using ideas from information geometry, we impose a geometric structure that captures how the denoising distribution changes as we move through latent spacetime. Surprisingly, we can compute shortest paths efficiently—even in high dimensions.
