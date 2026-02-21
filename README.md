@@ -1,26 +1,28 @@
-# Spacetime Geometry of Denoising in Diffusion Models
+# The Spacetime of Diffusion Models: An Information Geometry Perspective
 
 
-This repository contains the implementation of [Spacetime Geometry of Denoising in Diffusion Models](https://arxiv.org/abs/2505.17517). If you find our work useful in your research, please consider citing (expand for BibTeX):
+This repository contains the implementation of [The Spacetime of Diffusion Models: An Information Geometry Perspective](https://arxiv.org/abs/2505.17517). If you find our work useful in your research, please consider citing (expand for BibTeX):
 
 <details>
 <summary>
-R. Karczewski, M. Heinonen, A. Pouplin, S. Hauberg, V. Garg. Spacetime Geometry of Denoising in Diffusion Models
+R. Karczewski, M. Heinonen, A. Pouplin, S. Hauberg, V. Garg. The Spacetime of Diffusion Models: An Information Geometry Perspective
 </summary>
 
 ```bibtex
-@article{karczewski2025spacetime,
-  title={Spacetime Geometry of Denoising in Diffusion Models},
-  author={Karczewski, Rafa{\l} and Heinonen, Markus and Pouplin, Alison and Hauberg, S{\o}ren and Garg, Vikas},
-  journal={arXiv preprint arXiv:2505.17517},
-  year={2025}
+@inproceedings{
+karczewski2026the,
+title={The Spacetime of Diffusion Models: An Information Geometry Perspective},
+author={Rafal Karczewski and Markus Heinonen and Alison Pouplin and S{\o}ren Hauberg and Vikas K Garg},
+booktitle={ICLR},
+year={2026},
+url={https://openreview.net/forum?id=qCsbYJZRA5}
 }
 ```
 </details>
 
 ### TL;DR
 
-We redefine the latent space of diffusion models as a spacetime continuum $(\mathbf{x}_t,t)$. Using ideas from information geometry, we impose a geometric structure that captures how the denoising distribution changes as we move through latent spacetime. Surprisingly, we can compute shortest paths efficiently—even in high dimensions.
+We redefine the latent space of diffusion models as a spacetime continuum $(\mathbf{x}_t,t)$. Using ideas from information geometry, we impose a geometric structure that captures how the denoising distribution changes as we move through latent spacetime. Surprisingly, we can compute shortest paths efficiently, even in high dimensions.
 
 | ![](curve_with_density.gif) | 
 |:--:| 
