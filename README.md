@@ -20,6 +20,8 @@ url={https://openreview.net/forum?id=qCsbYJZRA5}
 ```
 </details>
 
+We also have a [blog post](https://rafalkarczewski.github.io/blog/2026/diffusion-spacetime/) about the paper with more visualizations and animations.
+
 ### TL;DR
 
 We redefine the latent space of diffusion models as a spacetime continuum $(\mathbf{x}_t,t)$. Using ideas from information geometry, we impose a geometric structure that captures how the denoising distribution changes as we move through latent spacetime. Surprisingly, we can compute shortest paths efficiently, even in high dimensions.
